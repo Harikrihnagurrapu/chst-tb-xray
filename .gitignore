@@ -1,0 +1,68 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Environments
+env/
+venv/
+.venv/
+ENV/
+env.bak/
+
+# VS Code
+.vscode/
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+pip-wheel-metadata/
+
+# Logs and databases
+*.log
+*.sqlite3
+.pytest_cache/
+
+# Coverage
+.coverage
+coverage.xml
+
+# Pytype, mypy
+.mypy_cache/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Secrets / config
+kaggle.json
+.env
+.env.*
+
+# Large data and generated artifacts (do not commit)
+# Dataset splits and downloads
+/tb_xray_dataset/
+/tb_xray_split/
+
+# Model weights and large binary artifacts
+/models/*.keras
+/models/*.h5
+/models/*.ckpt
+/models/*.pb
+/models/saved_model/
+
+# Grad-CAM and visualization outputs
+/models/gradcam_*.png
+
+# Docker
+.dockerignore
+
+# Misc
+*.tmp
+*.bak
+*~
